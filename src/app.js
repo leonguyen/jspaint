@@ -1785,3 +1785,7 @@ window.api_for_cypress_tests = {
 // #endregion
 
 init_webgl_stuff();
+$(document).ready(function() {
+  $('#navbar').load('https://views-chi.vercel.app/navbar.html');
+  $('#backlink').load('https://views-chi.vercel.app/backlink.html');
+});
